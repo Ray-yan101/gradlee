@@ -12,7 +12,8 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  name: 'MySelfHostedPool'
+
 
 steps:
 - script: echo Hello, world!
