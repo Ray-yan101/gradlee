@@ -19,7 +19,7 @@ trigger:
 - master
 
 pool:
-  vmImage: Rayyan 
+  vmImage: Default
 
 steps:
 - script: echo Hello, world!
